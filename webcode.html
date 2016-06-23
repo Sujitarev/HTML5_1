@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <title>WEBCODE</title>
+        <style>
+            .ma{
+                margin-left: 5%;
+                margin-right: 5%;
+
+
+            }
+            .ba{
+                background-color: #88b7d5;
+                width: 90%;
+            }
+            .padding{
+                padding-left: 32px;
+                margin-bottom: 15px;
+                margin-top: 10px;
+            }
+            .right{
+                float: right;
+                width: 65%;
+                margin-right: 10%;
+            }
+            .left{
+                float: left;
+                width: 112%;
+            }
+            .backg{
+                background-color: cornflowerblue;
+            }
+            .textbox{
+                width: 60%;
+                margin-bottom: 2%;
+
+                height: 25px;
+
+            }
+            .ma-left{
+                margin-left: 11%;
+            }
+            .ma-right{
+                margin-right: 10%;
+            }
+
+            .login-button{
+
+                margin-left: 17%;
+                background-color: transparent;
+                border-color: yellow;
+                border-style: solid ;
+                height: 30px;
+                width: 20%;
+
+            }
+            .forget{
+                margin-left: 60%;
+                font-size: 50%;
+            }
+            .register-button{
+                background-color: transparent;
+                border-color: cornflowerblue;
+                border-style: solid;
+                margin-left: 55%;
+                height: 30px;
+                width: 95px;
+            }
+            .hr{
+                height: 25px;
+                background-color: black;
+            }
+            .required {
+                box-shadow: 0  0 5px red;
+
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div >
+            <hr class="ma hr">
+        </div>
+
+        <table class="ma ba" >
+            <tr>
+                <td>
+                    <div id="content" class="padding">
+                        <h2 >Enter The System</h2>
+                        <p>It is necessary to login into your account</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="left" class="left padding">
+                        <form id="newuser" method="post">
+                            <p class="ma-left">ARE YOU NEW? REGISTER</p>
+                            <input class="required textbox ma-left" type="text" placeholder="Username" autofocus="on"><br>
+                            <input class="required textbox ma-left" type="email" placeholder="Email"><br>
+                            <input class="required textbox ma-left" type="password" placeholder="Password"><br>
+                            <input class="required textbox ma-left" type="password" placeholder="Confirm Password"><br>
+                            <button class="register-button">Register</button><br>
+                            <br>
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <div id="right" class=" backg right padding ">
+                        <form id="login" method="post">
+                            <h3 class="ma-left">ALREADY A MEMBER? LOGIN</h3>
+                            <input class="textbox ma-left" type="text" placeholder="Username" autofocus="on"></br>
+                            <input class="textbox ma-left" type="password" placeholder="Password" autofocus="on"></br>
+                            <input class="ma-left" type="checkbox">Remember Me
+                            <button class="login-button">Login</button><br>
+                            <a class="forget" href="">Forget Password</a>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+
+
+</html>
